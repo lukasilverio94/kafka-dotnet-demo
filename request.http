@@ -1,0 +1,18 @@
+### Variável com o host da API
+@host = http://10.10.0.134:5145
+
+### Health check
+GET {{host}}/api/kafka/health
+
+### Produzir mensagem - endpoint do MessagesController
+POST {{host}}/api/messages
+Content-Type: application/json
+
+"mensagem enviada pelo REST Client"
+
+
+### Outra mensagem
+POST {{host}}/api/messages
+Content-Type: application/json
+
+"segunda mensagem via REST Client"
