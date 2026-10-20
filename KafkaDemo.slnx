@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KafkaDemo.Api/KafkaDemo.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/KafkDemo.Api/">
+    <Project Path="src/KafkDemo.Api/KafkaDemo.Api.csproj" />
+  </Folder>
+</Solution>

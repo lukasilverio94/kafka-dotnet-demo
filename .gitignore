@@ -1,0 +1,74 @@
+# ── .NET build / restore artifacts ──
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# ASP.NET / publish output
+publish/
+*.publishsettings
+*.pubxml.user
+appsettings.Development.local.json
+appsettings.*.local.json
+
+# Docker
+*.pid
+.docker/
+
+# Kafka / Docker Compose local data
+infra/kafka_data/
+infra/**/*.log
+docker-compose.override.yml
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+secrets.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
